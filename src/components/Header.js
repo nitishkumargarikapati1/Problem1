@@ -319,7 +319,7 @@ export default function Header() {
           </Box>
           &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
           
-            <Box sx={{ flexGrow: 0 }}>
+            <Box sx={{ display: { xs: 'none', md: 'block', sm: "none"} }}>
             <Stack direction="row">
       <Avatar alt="Remy Sharp" src="profile-pic-06.jpg" />
       
